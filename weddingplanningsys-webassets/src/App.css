@@ -1,0 +1,103 @@
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.App .orange {
+  color: #515e5b;
+}
+
+.App .white {
+  color: #fff;
+}
+
+.shopping-icon-container {
+  background-color: #515e5b;
+  padding: 2px 12px 0 12px;
+  border-radius: 14px;
+  margin-right: -24px;
+}
+
+.shopping-icon-container .count {
+  margin: 0 0 0 4px;
+}
+
+.line-height-24 {
+  line-height: 24px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a:active {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a:focus-within {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a:visited {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.padding-top-down {
+  padding: 7px 0;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header:first-child {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}

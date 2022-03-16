@@ -1,0 +1,44 @@
+{
+  "name": "aws-sayido-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@types/graphql": "^14.0.5",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.12",
+    "@types/react": "^16.7.12",
+    "@types/react-bootstrap": "^0.32.15",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router-bootstrap": "^0.24.5",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/styled-components": "^5.1.9",
+    "aws-amplify": "^1.0.10",
+    "bootstrap": "^3.3.7",
+    "hoist-non-react-statics": "^3.3.2",
+    "react": "^16.5.0",
+    "react-bootstrap": "^0.32.4",
+    "react-data-table-component": "^6.11.7",
+    "react-dom": "^16.5.0",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.0.1",
+    "styled-components": "^5.2.3",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
